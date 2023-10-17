@@ -6,7 +6,7 @@ def insertLetter (letter, position):
     board[position] = letter
 
 def spaceIsFree(position):
-    return board[position] === ' '
+    return board[position] == ' '
 
 def printBoard(board):
     print(' ' + board[1] + ' | ' + board[2] + ' | ' + board[3])

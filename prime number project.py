@@ -9,4 +9,4 @@ for a in range(2,i):
         break
 else:
     print('number is prime')
-jb
+
